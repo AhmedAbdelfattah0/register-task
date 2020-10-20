@@ -1,0 +1,50 @@
+input , textarea, select { 
+    outline: none;
+}
+input{
+    border: none;
+}
+
+.border{
+    border-radius: 7px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.font-color{
+    color: #5a6877;
+}
+
+.card{
+    border-radius: 7px;
+}
+.input-group-text{
+    background-color: #fff;
+    border:none;
+    border-right: 1px solid #ced4da;
+}
+
+.col-6-custom{
+    max-width: 49%;
+    
+}
+ 
+@media only screen and ( max-width:450px){
+    .col-6-custom{
+        max-width: 100%;
+        
+    }
+}
+
+.form-control{
+
+    outline: none;
+    border: none;
+}
+.btn-width{
+    width: 240px;
+}
+.pointer{
+    cursor: pointer;
+}
